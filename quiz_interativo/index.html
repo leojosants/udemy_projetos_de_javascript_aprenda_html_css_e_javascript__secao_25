@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<!--  -->
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!--  -->
+		<title>Quiz Interativo</title>
+
+		<!--  -->
+		<link rel="stylesheet" href="assets/css/styles.css" />
+
+		<!--  -->
+		<script type="module" src="assets/js/app.js" defer></script>
+	</head>
+	<body>
+        <!--  -->
+        <div class="quiz_container" data_quiz_container>
+
+            <!--  -->
+            <h1>Quiz Interativo</h1>
+
+            <!--  -->
+            <p id="score" data_score>Pontuação: 0</p>
+            <p id="wrong" data_wrong>Erros: 0</p>
+            <p id="question" data_question></p>
+
+            <!--  -->
+            <div id="choices" data_choices>
+                <button class="choice" id="choice_1" data_choice_1></button>
+                <button class="choice" id="choice_2" data_choice_1></button>
+                <button class="choice" id="choice_3" data_choice_1></button>
+                <button class="choice" id="choice_4" data_choice_1></button>
+            </div>
+
+            <!--  -->
+            <button id="next" data_next>Próxima</button>
+        </div>
+	</body>
+</html>
