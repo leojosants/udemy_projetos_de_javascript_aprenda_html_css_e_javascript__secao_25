@@ -1,4 +1,4 @@
-export const questions = [
+export const questions_db = [
     {
       question: "Qual é a capital do Brasil?",
       choices: ["Brasília", "Rio de Janeiro", "São Paulo", "Salvador"],
