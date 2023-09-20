@@ -15,27 +15,46 @@
 		<script type="module" src="assets/js/app.js" defer></script>
 	</head>
 	<body>
-        <!--  -->
-        <div class="quiz_container" data_quiz_container>
+		<!--  -->
+		<div class="quiz_container" data_quiz_container>
+			<!--  -->
+			<h1>Quiz Interativo</h1>
 
-            <!--  -->
-            <h1>Quiz Interativo</h1>
+			<!--  -->
+			<p id="score" data_score>Pontuação: 0</p>
+			<p id="wrong" data_wrong>Erros: 0</p>
+			<p id="question" data_question></p>
 
-            <!--  -->
-            <p id="score" data_score>Pontuação: 0</p>
-            <p id="wrong" data_wrong>Erros: 0</p>
-            <p id="question" data_question></p>
+			<!--  -->
+			<div id="choices" data_choices>
+				<button
+					class="choice"
+					id="choice_1"
+					data_choice
+					data_choice_1
+				></button>
+				<button
+					class="choice"
+					id="choice_2"
+					data_choice
+					data_choice_2
+				></button>
+				<button
+					class="choice"
+					id="choice_3"
+					data_choice
+					data_choice_3
+				></button>
+				<button
+					class="choice"
+					id="choice_4"
+					data_choice
+					data_choice_4
+				></button>
+			</div>
 
-            <!--  -->
-            <div id="choices" data_choices>
-                <button class="choice" id="choice_1" data_choice data_choice_1></button>
-                <button class="choice" id="choice_2" data_choice data_choice_2></button>
-                <button class="choice" id="choice_3" data_choice data_choice_3></button>
-                <button class="choice" id="choice_4" data_choice data_choice_4></button>
-            </div>
-
-            <!--  -->
-            <button id="next" data_next>Próxima</button>
-        </div>
+			<!--  -->
+			<button id="next" data_next>Próxima</button>
+		</div>
 	</body>
 </html>
